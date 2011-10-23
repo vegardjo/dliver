@@ -1,0 +1,119 @@
+/* This file will hold the main styles for your website. */
+
+body, h1, h2 {
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+
+body {
+  font-weight: 300;
+  line-height: 1.2em;
+  font-size: 105%;
+}
+
+h2, h2 {
+  font-weight: 400;
+}
+
+h1 {
+  font-size: 200%;
+  text-transform: uppercase;
+}
+
+h2 {
+  font-size: 130%;  
+  margin-bottom: 5px;
+}
+
+.zone-branding .logo-img {
+  padding-top: 20px;
+}
+
+.zone-branding ul.main-menu {
+  position: absolute;
+  top: 45px;
+  right: 0;
+  font-size: 150%;
+  font-weight: 400;
+}
+
+ul.main-menu li {
+  border-top: solid 5px white;
+  margin-right: 30px;
+  padding: 45px 0 0 0;
+  text-transform: uppercase;
+}
+
+ul.main-menu li.last {
+  margin-right: 0;
+}
+
+ul.main-menu li.active, 
+ul.main-menu li.active-trail, 
+ul.main-menu li:hover {
+  border-top: solid 8px #16b9ed;
+  padding-top: 34px;
+}
+
+ul.main-menu li:hover a {
+  color: black;
+}
+
+
+ul.main-menu li a, 
+ul.menu li a {
+  color: gray;
+  text-decoration: none;
+}
+
+ul.main-menu li.active a, 
+ul.main-menu li.active-trail a {
+  color: black;
+}
+
+.zone-preface {
+  margin: 80px 0 40px 0;
+  padding-bottom: 50px;
+  border-bottom: solid 1px gray;
+}
+
+.region-preface-first-inner {
+  color: #16b9ed;
+  font-size: 140%;
+  line-height: 1.3em;
+  padding: 0 20px 0 0;
+}
+
+.region-preface-second-inner {
+  border-left: dotted 1px #16b9ed; 
+  border-right: dotted 1px #16b9ed; ;
+  padding: 0 40px;
+}
+
+div.region-sidebar-first-inner ul.menu {
+  list-style-image: none;
+  font-size: 120%;
+}
+
+div.region-sidebar-first-inner ul.menu li {
+  background: url('../images/menu-arrows.png') no-repeat;
+  background-position: left -1px;
+  padding: 0px 6px 4px 35px;
+  margin-bottom: 5px;
+}
+
+div.region-sidebar-first-inner ul.menu li:hover {
+  background-position: left -30px;
+}
+
+
+div.region-content p {
+  margin-top: 1em;
+}
+
+.zone-footer {
+  text-transform: uppercase;
+  font-size: 80%;
+  color: #16b9ed;
+  text-align: center;
+  margin-top: 50px;
+}
