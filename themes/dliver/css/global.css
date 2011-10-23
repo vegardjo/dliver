@@ -85,7 +85,7 @@ ul.main-menu li.active-trail a {
 
 .region-preface-second-inner {
   border-left: dotted 1px #16b9ed; 
-  border-right: dotted 1px #16b9ed; ;
+  border-right: dotted 1px #16b9ed; 
   padding: 0 40px;
 }
 
@@ -101,7 +101,8 @@ div.region-sidebar-first-inner ul.menu li {
   margin-bottom: 5px;
 }
 
-div.region-sidebar-first-inner ul.menu li:hover {
+div.region-sidebar-first-inner ul.menu li:hover,
+div.region-sidebar-first-inner ul.menu li.active-trail {
   background-position: left -30px;
 }
 
