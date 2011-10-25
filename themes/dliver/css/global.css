@@ -112,15 +112,16 @@ div.region-sidebar-first-inner ul.menu li.active-trail {
 .panels-flexible-region-homepage-right h2 {
   text-transform: uppercase;
   color: gray;  
-  font-size: 100%;
+  font-size: 150%;
 }
 
 .panels-flexible-region-homepage-left h3,
 .panels-flexible-region-homepage-center h3,
 .panels-flexible-region-homepage-right h3 {
-  text-transform: uppercase;
-  color: gray;  
-  font-size: 110%;
+  text-transform: uppercase;  
+  font-size: 250%;
+  padding: 0.4em 0 0.8em 0;
+  border-bottom: dotted 1px;
 }
 
 
