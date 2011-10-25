@@ -106,6 +106,23 @@ div.region-sidebar-first-inner ul.menu li.active-trail {
   background-position: left -30px;
 }
 
+/* homepage boxes */
+.panels-flexible-region-homepage-left h2,
+.panels-flexible-region-homepage-center h2,
+.panels-flexible-region-homepage-right h2 {
+  text-transform: uppercase;
+  color: gray;  
+  font-size: 100%;
+}
+
+.panels-flexible-region-homepage-left h3,
+.panels-flexible-region-homepage-center h3,
+.panels-flexible-region-homepage-right h3 {
+  text-transform: uppercase;
+  color: gray;  
+  font-size: 110%;
+}
+
 
 div.region-content p {
   margin-top: 1em;
