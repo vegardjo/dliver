@@ -147,8 +147,9 @@ div.region-content p {
 .view-board-of-directors .views-field-field-picture,
 .view-management .views-field-field-picture  {
   float: left;
-  padding-right: 20px;
+  padding-right: 30px;
   border-right: dotted 1px #16b9ed;
+  margin-bottom: 10px;
 } 
 
 .view-board-of-directors .views-row, 
@@ -166,3 +167,8 @@ div.region-content p {
 .view-management .views-field-title {
   margin-left: 160px;
 } 
+
+.views-label {
+  float: left;
+  margin-right: 0.5em;
+}
