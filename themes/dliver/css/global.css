@@ -28,6 +28,11 @@ a:link, a:visited {
   color: blue;
 }
 
+p.last-updated {
+  color: gray;
+  margin-top: 40px;
+}
+
 .zone-branding .logo-img {
   padding-top: 20px;
 }
