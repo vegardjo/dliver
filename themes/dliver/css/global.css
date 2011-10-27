@@ -141,3 +141,28 @@ div.region-content p {
   text-align: center;
   margin-top: 50px;
 }
+
+/* Views / people */
+
+.view-board-of-directors .views-field-field-picture,
+.view-management .views-field-field-picture  {
+  float: left;
+  padding-right: 20px;
+  border-right: dotted 1px #16b9ed;
+} 
+
+.view-board-of-directors .views-row, 
+.view-management .views-row {
+  clear: both;
+  margin-top: 20px;
+}
+
+.view-board-of-directors .views-field-field-email,  
+.view-board-of-directors .views-field-field-telephone,
+.view-board-of-directors .views-field-title,
+.view-board-of-directors .views-field-body,
+.view-management .views-field-field-email, 
+.view-management .views-field-field-telephone,
+.view-management .views-field-title {
+  margin-left: 160px;
+} 
