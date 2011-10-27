@@ -129,6 +129,10 @@ div.region-sidebar-first-inner ul.menu li.active-trail {
   border-bottom: dotted 1px;
 }
 
+.panel-pane img {
+  margin: -20px 0 20px 0;
+}
+
 
 div.region-content p {
   margin-top: 1em;
