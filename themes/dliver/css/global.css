@@ -136,9 +136,9 @@ div.region-sidebar-first-inner ul.menu li.active-trail {
   font-size: 120%;
 }
 
-.panels-flexible-region-homepage-left h3 a,
-.panels-flexible-region-homepage-center h3 a,
-.panels-flexible-region-homepage-right h3 a {
+.panels-flexible-region-homepage-left h3,
+.panels-flexible-region-homepage-center h3,
+.panels-flexible-region-homepage-right h3 {
   text-transform: uppercase;  
   font-size: 220%;
   padding: 0.4em 0 0.8em 0;
