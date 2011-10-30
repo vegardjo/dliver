@@ -128,9 +128,9 @@ div.region-sidebar-first-inner ul.menu li.active-trail {
 }
 
 /* homepage boxes */
-.panels-flexible-region-homepage-left h2 a,
-.panels-flexible-region-homepage-center h2 a,
-.panels-flexible-region-homepage-right h2 a{
+.panels-flexible-region-homepage-left a h2,
+.panels-flexible-region-homepage-center a h2,
+.panels-flexible-region-homepage-right a h2 {
   text-transform: uppercase;
   color: gray;  
   font-size: 120%;
