@@ -1,6 +1,6 @@
 /* This file will hold the main styles for your website. */
 
-body, h1, h2 {
+body, h1, h2, h3 {
   font-family: 'Yanone Kaffeesatz', sans-serif;
 }
 
@@ -10,8 +10,9 @@ body {
   font-size: 105%;
 }
 
-h2, h2 {
+h2 {
   font-weight: 400;
+  margin: 15px 0;
 }
 
 h1 {
@@ -132,16 +133,25 @@ div.region-sidebar-first-inner ul.menu li.active-trail {
 .panels-flexible-region-homepage-right h2 {
   text-transform: uppercase;
   color: gray;  
-  font-size: 150%;
+  font-size: 140%;
 }
 
 .panels-flexible-region-homepage-left h3,
 .panels-flexible-region-homepage-center h3,
 .panels-flexible-region-homepage-right h3 {
   text-transform: uppercase;  
-  font-size: 250%;
+  font-size: 240%;
   padding: 0.4em 0 0.8em 0;
   border-bottom: dotted 1px;
+}
+
+.panels-flexible-row-homepage-main-row a {
+  color: black;
+  margin: 0;
+}
+
+.panels-flexible-row-homepage-main-row a img {
+  border: none;
 }
 
 .panel-pane img {
