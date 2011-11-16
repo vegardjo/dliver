@@ -92,8 +92,8 @@ ul.main-menu li.active-trail a {
 }
 
 .zone-preface {
-  margin: 80px 0 40px 0;
-  padding-bottom: 50px;
+  margin: 60px 0 40px 0;
+  padding-bottom: 25px;
   border-bottom: solid 1px gray;
 }
 
@@ -133,7 +133,7 @@ div.region-sidebar-first-inner ul.menu li.active-trail {
 .panels-flexible-region-homepage-right a h2 {
   text-transform: uppercase;
   color: gray;  
-  font-size: 120%;
+  font-size: 140%;
 }
 
 .panels-flexible-region-homepage-left h3,
