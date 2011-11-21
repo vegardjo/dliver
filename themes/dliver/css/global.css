@@ -42,7 +42,7 @@ p.last-updated {
 .zone-branding ul.main-menu {
   position: absolute;
   top: 45px;
-  right: 0;
+  right: 10px;
   font-size: 150%;
   font-weight: 400;
 }
