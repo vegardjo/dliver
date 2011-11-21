@@ -90,7 +90,7 @@ CKEDITOR.plugins.add( 'footnotes',
          var element = selection.getSelectedElement();
          var seltype = selection.getType();
          
-         if ( seltype == CKEDITOR.SELECTION_ELEMENT && element.getAttribute( '_cke_real_element_type' ) && element.getAttribute( '_cke_real_element_type' ) == 'fn' )
+         if ( seltype == CKEDITOR.SELECTION_ELEMENT && element.getAttribute( 'data-cke-real-element-type' ) && element.getAttribute( 'data-cke-real-element-type' ) == 'fn' )
          {
           this.fakeObj = element;
           element = editor.restoreRealElement( this.fakeObj );
@@ -115,6 +115,10 @@ CKEDITOR.plugins.add( 'footnotes',
               if ( value.length > 0 )
                 realElement.setAttribute('value',value);
               var fakeElement = editor.createFakeElement( realElement , 'cke_footnote', 'fn', false );
+                fakeElement.setAttributes({
+                            title: content,
+                            alt: content
+                        });
               editor.insertElement(fakeElement);
             }
           }
@@ -151,7 +155,7 @@ CKEDITOR.plugins.add( 'footnotes',
       {
         editor.contextMenu.addListener(function(element, selection)
           {
-            if(element.is( 'img' ) && element.getAttribute( '_cke_real_element_type' ) == 'fn')
+            if(element.is( 'img' ) && element.getAttribute( 'data-cke-real-element-type' ) == 'fn')
               return { footnotes : CKEDITOR.TRISTATE_OFF };
             else
               return null;
@@ -172,7 +176,11 @@ CKEDITOR.plugins.add( 'footnotes',
                 'fn' : function( element )
                   {
                       var fakeElement = editor.createFakeParserElement(element, 'cke_footnote', 'fn', false );
-                      return fakeElement;  
+                      if(element.children[0] !== undefined && element.children[0] !== null) {
+                          fakeElement.attributes.alt = element.children[0].value;
+                          fakeElement.attributes.title = element.children[0].value;
+                      }
+                      return fakeElement;
                   }
               }
           },

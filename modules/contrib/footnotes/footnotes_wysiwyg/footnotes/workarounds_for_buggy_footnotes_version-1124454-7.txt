@@ -1,0 +1,54 @@
+From da0d18e8740e30cbabdfd4677cd0898036072356 Mon Sep 17 00:00:00 2001
+From: =?UTF-8?q?Dennis=20Bl=C3=A4sing?= <blaesing@cosmocode.de>
+Date: Tue, 21 Jun 2011 15:50:17 +0200
+Subject: [PATCH] workarounds for buggy footnotes version
+
+diff --git a/plugin.js b/plugin.js
+index 6dadd97..13eba22 100644
+--- a/plugin.js
++++ b/plugin.js
+@@ -90,7 +90,7 @@ CKEDITOR.plugins.add( 'footnotes',
+          var element = selection.getSelectedElement();
+          var seltype = selection.getType();
+          
+-         if ( seltype == CKEDITOR.SELECTION_ELEMENT && element.getAttribute( '_cke_real_element_type' ) && element.getAttribute( '_cke_real_element_type' ) == 'fn' )
++         if ( seltype == CKEDITOR.SELECTION_ELEMENT && element.getAttribute( 'data-cke-real-element-type' ) && element.getAttribute( 'data-cke-real-element-type' ) == 'fn' )
+          {
+           this.fakeObj = element;
+           element = editor.restoreRealElement( this.fakeObj );
+@@ -115,6 +115,10 @@ CKEDITOR.plugins.add( 'footnotes',
+               if ( value.length > 0 )
+                 realElement.setAttribute('value',value);
+               var fakeElement = editor.createFakeElement( realElement , 'cke_footnote', 'fn', false );
++                fakeElement.setAttributes({
++                            title: content,
++                            alt: content
++                        });
+               editor.insertElement(fakeElement);
+             }
+           }
+@@ -151,7 +155,7 @@ CKEDITOR.plugins.add( 'footnotes',
+       {
+         editor.contextMenu.addListener(function(element, selection)
+           {
+-            if(element.is( 'img' ) && element.getAttribute( '_cke_real_element_type' ) == 'fn')
++            if(element.is( 'img' ) && element.getAttribute( 'data-cke-real-element-type' ) == 'fn')
+               return { footnotes : CKEDITOR.TRISTATE_OFF };
+             else
+               return null;
+@@ -172,7 +176,11 @@ CKEDITOR.plugins.add( 'footnotes',
+                 'fn' : function( element )
+                   {
+                       var fakeElement = editor.createFakeParserElement(element, 'cke_footnote', 'fn', false );
+-                      return fakeElement;  
++                      if(element.children[0] !== undefined && element.children[0] !== null) {
++                          fakeElement.attributes.alt = element.children[0].value;
++                          fakeElement.attributes.title = element.children[0].value;
++                      }
++                      return fakeElement;
+                   }
+               }
+           },
+-- 
+1.7.2.5
+
