@@ -97,17 +97,29 @@ ul.main-menu li.active-trail a {
   border-bottom: solid 1px gray;
 }
 
+.zone-preface h2 {
+  margin-top: 0px;
+}
+
+
 .region-preface-first-inner {
   color: #16b9ed;
   font-size: 140%;
   line-height: 1.3em;
+  letter-spacing: ;
   padding: 0 20px 0 0;
+/* letter-spacing: 0.05em; */ 
 }
 
 .region-preface-second-inner {
   border-left: dotted 1px #16b9ed; 
   border-right: dotted 1px #16b9ed; 
   padding: 0 40px;
+
+}
+
+.region-preface-third-inner {
+  /*  letter-spacing: 0.06em; */  
 }
 
 div.region-sidebar-first-inner ul.menu {
