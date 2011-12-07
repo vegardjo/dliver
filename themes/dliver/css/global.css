@@ -1,5 +1,5 @@
 /* @override 
-	http://dliver.com/sites/www.dliver.com/themes/dliver/css/global.css?lvhrxd */
+	http://dliver.com/sites/www.dliver.com/themes/dliver/css/global.css?lvjnno */
 
 /* This file will hold the main styles for your website. */
 
@@ -28,7 +28,7 @@ h1 {
 }
 
 h2 {
-  font-size: 130%;  
+  font-size: 150%;  
   margin-bottom: 5px;
 }
 
@@ -51,6 +51,8 @@ p.last-updated {
   top: 45px;
   right: 10px;
   font-size: 120%;
+  letter-spacing: 1px;
+  font-weight: 400;
 }
 
 ul.main-menu li {
@@ -107,6 +109,7 @@ ul.main-menu li.active-trail a {
 
 .zone-preface h2 {
   margin-top: 0px;
+  font-weight: 500;
 }
 
 
