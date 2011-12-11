@@ -33,7 +33,8 @@ h2 {
 }
 
 a:link, a:visited {
-  color: #00c5f1;
+/*  color: #00c5f1; */ 
+  color: #16B8EC;
   text-decoration: none;
 }
 
