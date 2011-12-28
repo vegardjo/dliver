@@ -217,7 +217,8 @@ div.region-content p {
 .view-board-of-directors .views-field-body,
 .view-management .views-field-field-email, 
 .view-management .views-field-field-telephone,
-.view-management .views-field-title {
+.view-management .views-field-title, 
+.view-management .views-field-body {
   margin-left: 160px;
 } 
 
