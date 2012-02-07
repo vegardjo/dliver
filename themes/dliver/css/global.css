@@ -1,5 +1,6 @@
 /* @override 
-	http://dliver.com/sites/www.dliver.com/themes/dliver/css/global.css?lvjnno */
+	http://dliver.com/sites/www.dliver.com/themes/dliver/css/global.css?lvjnno
+	http://dliver.com/sites/www.dliver.com/themes/dliver/css/global.css?lyb61j */
 
 /* This file will hold the main styles for your website. */
 
@@ -41,6 +42,15 @@ a:link, a:visited {
 p.last-updated {
   color: gray;
   margin-top: 40px;
+}
+
+table.investors {
+	margin-top: 30px;
+}
+
+table.investors td {
+	padding: 0 30px 20px 0;
+	vertical-align: top;
 }
 
 .zone-branding .logo-img {
