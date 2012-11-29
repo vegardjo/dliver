@@ -1,6 +1,7 @@
 /* @override 
 	http://dliver.com/sites/www.dliver.com/themes/dliver/css/global.css?lvjnno
-	http://dliver.com/sites/www.dliver.com/themes/dliver/css/global.css?lyb61j */
+	http://dliver.com/sites/www.dliver.com/themes/dliver/css/global.css?lyb61j
+	http://dliver.com/sites/www.dliver.com/themes/dliver/css/global.css?me5x0f */
 
 /* This file will hold the main styles for your website. */
 
@@ -239,4 +240,43 @@ div.region-content p {
 
 .footnotes {
   font-size: 1em;
+}
+
+/* new frontpage */
+
+.flexslider {
+	background: #16B9ED;
+	color: white;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	height: 345px;
+} 
+
+.flexslider .views-field-title,
+.flexslider .views-field-body,
+.flexslider .views-field-nothing  {
+	position: absolute;
+	width: 260px;
+	float: left;
+	padding: 0px 30px;
+}
+
+.flexslider .views-field-field-picture {
+	position: relative;
+	right: 0px;
+	float: right;
+}
+
+ol.flex-control-nav {
+	position: absolute;
+	top: 10px;
+/*	text-align: right; */ 
+	right: -430px;	
+}
+
+.flexslider ol.flex-control-nav {
+	position: absolute;	
+	background: red;
+	
 }
