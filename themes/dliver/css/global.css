@@ -1,7 +1,8 @@
 /* @override 
 	http://dliver.com/sites/www.dliver.com/themes/dliver/css/global.css?lvjnno
 	http://dliver.com/sites/www.dliver.com/themes/dliver/css/global.css?lyb61j
-	http://dliver.com/sites/www.dliver.com/themes/dliver/css/global.css?me5x0f */
+	http://dliver.com/sites/www.dliver.com/themes/dliver/css/global.css?me5x0f
+	http://dliver.com/sites/www.dliver.com/themes/dliver/css/global.css?mh2vic */
 
 /* This file will hold the main styles for your website. */
 
@@ -278,22 +279,25 @@ div.region-content p {
 	font-size: 2.2em;
 	text-transform: uppercase;
 	line-height: 1.1em;
+	font-family: 'Yanone Kaffeesatz', sans-serif;
 }
 
 .flexslider .views-field-nothing {
 	background: url(../images/front-button.png) no-repeat;
 	margin: 0px 30px 0px 30px;	
 	height: 40px;
-	position: relative;
+	position: absolute;
+	top: 270px;
 }
 
 .flexslider .views-field-nothing:hover {
 	background: url(../images/front-button.png) no-repeat 0px -40px;
-	margin: 0px 30px 0px 30px;	
-	height: 40px;
-	position: relative;
 }
 
+.flexslider .views-field-nothing:hover a {
+	color: white;
+	text-shadow: none;
+}
 
 .flexslider .views-field-nothing span a {
 	position: absolute;
@@ -304,6 +308,7 @@ div.region-content p {
 	font-size: 0.8em;
 	text-shadow: #eee 1px 1px;
 }
+
 
 .flexslider .views-field-body {
 	padding: 0px 30px 10px 30px;	
