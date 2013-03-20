@@ -253,9 +253,14 @@ div.region-content p {
 	background: #16B9ED;
 	color: white;
 	-webkit-border-radius: 10px;
+	-webkit-border-top-right-radius: 12px;
+	-webkit-border-bottom-right-radius: 12px;
 	-moz-border-radius: 10px;
-	border: 0;
+	-moz-border-radius-topright: 12px;
+	-moz-border-radius-bottomright: 12px;
 	border-radius: 10px;
+	border-top-right-radius: 12px;
+	border-bottom-right-radius: 12px;	border: 0;
 	height: 345px;
 } 
 
@@ -331,7 +336,7 @@ div.region-content p {
 ol.flex-control-nav {
 	position: absolute;
 	top: 15px;
-	right: -440px;	
+	right: -420px;	
 }
 
 /* quotes */ 
