@@ -245,11 +245,16 @@ div.region-content p {
 
 /* new frontpage */
 
+.view-frontpage-slider {
+	overflow: hidden;
+}
+
 .flexslider {
 	background: #16B9ED;
 	color: white;
 	-webkit-border-radius: 10px;
 	-moz-border-radius: 10px;
+	border: 0;
 	border-radius: 10px;
 	height: 345px;
 } 
