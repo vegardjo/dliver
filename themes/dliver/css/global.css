@@ -26,7 +26,7 @@ body {
 
 
 h1, h2, h3 {
-  font-family: 'Yanone Kaffeesatz', sans-serif;
+  font-family: 'league_gothicregular', sans-serif;
 }
 
 
@@ -157,6 +157,7 @@ ul.main-menu li.active-trail a {
 }
 
 div.region-sidebar-first-inner ul.menu {
+  border-top: 1px solid #808080;
   list-style-image: none;
   font-size: 110%;
 }
@@ -219,29 +220,64 @@ div.region-content p {
 
 /* Views / people */
 
+.panel-people .panel-row-top {
+  margin: 0 0 47px 0;
+  width: 100%;
+}
+
+.panel-people .panel-col-left {
+  color: #0b4c61;
+  float: left;
+  width: 35%;
+}
+
+.panel-people .panel-col-right {
+  float: right;
+  width: 61%;
+}
+
 .view-board-of-directors .views-field-field-picture,
 .view-management .views-field-field-picture  {
-  float: left;
-  padding-right: 30px;
-  border-right: dotted 1px #16b9ed;
-  margin-bottom: 30px;
+  width: 100%;
+}
+
+.view-board-of-directors .views-row-first, .view-management .views-row-first {
+  padding-top: 0 !important;
 }
 
 .view-board-of-directors .views-row,
 .view-management .views-row {
+  border-bottom: 1px solid #808080;
   clear: both;
-  margin-top: 30px;
+  margin-bottom: 30px;
+  padding-top: 40px;
+  padding-bottom: 65px;
 }
 
-.view-board-of-directors .views-field-field-email,
+.view-management .views-label, .view-board-of-directors .views-label {
+  font-weight: bold;
+}
+
+.view-board-of-directors .views-field-field-title,
 .view-board-of-directors .views-field-field-telephone,
-.view-board-of-directors .views-field-title,
-.view-board-of-directors .views-field-body,
+.view-board-of-directors .views-field-field-telephone,
+.view-management .views-field-field-title,
 .view-management .views-field-field-email,
-.view-management .views-field-field-telephone,
-.view-management .views-field-title,
-.view-management .views-field-body {
-  margin-left: 160px;
+.view-management .views-field-field-telephone
+ {
+  font-size: 125%;
+  line-height: 1.222em;
+}
+
+.view-management .views-field-body, .view-board-of-directors .views-field-body {
+  font-size: 114%;
+  line-height: 1.375em;
+}
+
+.view-board-of-directors .views-field-title h2, .view-management .views-field-title h2 {
+  font-size: 210%;
+  line-height: 1em;
+  text-transform: uppercase;
 }
 
 .views-label {
@@ -394,6 +430,7 @@ ol.flex-control-nav {
 
 .toggle-content {
   border-bottom: 1px solid #0b4c61;
+  color: #0b4c61;
 }
 
 div.toggle-content, p.toggle-content {

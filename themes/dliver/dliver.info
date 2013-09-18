@@ -353,3 +353,4 @@ libraries[dliver_script][description] = basic javascript file
 libraries[dliver_script][js][0][file] = script.js
 libraries[dliver_script][js][0][options][weight] = 15
 version = '1.x'
+plugins[panels][layouts] = layouts
