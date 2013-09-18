@@ -21,8 +21,7 @@
       print render($content);
       
     ?>
-  <p class="last-updated"><?php print 'Last updated: ' . date( "F j, Y", $node->changed); ?></p>
-    
+
   </div>
   
   <div class="clearfix">
