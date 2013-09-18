@@ -6,9 +6,19 @@
 
 /* This file will hold the main styles for your website. */
 
+@font-face {
+  font-family: 'league_gothicregular';
+  src: url('../type2/leaguegothic/leaguegothic-regular-webfont.eot');
+  src: url('../type2/leaguegothic/leaguegothic-regular-webfont.eot?#iefix') format('embedded-opentype'),
+       url('../type2/leaguegothic/leaguegothic-regular-webfont.woff') format('woff'),
+       url('../type2/leaguegothic/leaguegothic-regular-webfont.ttf') format('truetype'),
+       url('../type2/leaguegothic/leaguegothic-regular-webfont.svg#league_gothicregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
 
 body {
-  font-weight: 300; 
+  font-weight: 300;
   font-family: helvetica, arial, sans-serif;
   line-height: 1.2em;
   font-size: 90%;
@@ -31,12 +41,12 @@ h1 {
 }
 
 h2 {
-  font-size: 150%;  
+  font-size: 150%;
   margin-bottom: 5px;
 }
 
 a:link, a:visited {
-/*  color: #00c5f1; */ 
+/*  color: #00c5f1; */
   color: #16B8EC;
   text-decoration: none;
 }
@@ -69,8 +79,8 @@ table.investors td {
 }
 
 ul.main-menu li {
-font-family: 'Yanone Kaffeesatz', sans-serif;
-font-size: 130%;
+  font-family: 'league_gothicregular', Helvetica, Arial, sans-serif;
+  font-size: 160%;
   border-top: solid 5px white;
   margin-right: 30px;
   padding: 45px 0 0 0;
@@ -81,27 +91,27 @@ ul.main-menu li.last {
   margin-right: 0;
 }
 
-ul.main-menu li.active, 
-ul.main-menu li.active-trail, 
+ul.main-menu li.active,
+ul.main-menu li.active-trail,
 ul.main-menu li:hover {
   border-top: solid 8px #16b9ed;
   padding-top: 33px;
 }
 
 ul.main-menu li:hover a {
-  color: black;
+  color: #0b4c61;
 }
 
 
-ul.main-menu li a, 
+ul.main-menu li a,
 ul.menu li a {
-  color: gray;
+  color: #b5b4b4;
   text-decoration: none;
 }
 
-ul.main-menu li.active a, 
+ul.main-menu li.active a,
 ul.main-menu li.active-trail a {
-  color: black;
+  color: #0b4c61;
 }
 
 .region-content ul {
@@ -132,18 +142,18 @@ ul.main-menu li.active-trail a {
   line-height: 1.3em;
   letter-spacing: ;
   padding: 0 20px 0 0;
-/* letter-spacing: 0.05em; */ 
+/* letter-spacing: 0.05em; */
 }
 
 .region-preface-second-inner {
-/*  border-left: dotted 1px #16b9ed; 
-  border-right: dotted 1px #16b9ed;  */ 
+/*  border-left: dotted 1px #16b9ed;
+  border-right: dotted 1px #16b9ed;  */
   padding: 0;
   margin: 0 0 0 -35px;
 }
 
 .region-preface-third-inner {
-  /*  letter-spacing: 0.06em; */  
+  /*  letter-spacing: 0.06em; */
 }
 
 div.region-sidebar-first-inner ul.menu {
@@ -152,15 +162,15 @@ div.region-sidebar-first-inner ul.menu {
 }
 
 div.region-sidebar-first-inner ul.menu li {
-  background: url('../images/menu-arrows.png') no-repeat;
-  background-position: left -1px;
-  padding: 0px 6px 4px 35px;
-  margin-bottom: 5px;
+  border-bottom: 1px solid #808080;
+  font-weight:bold;
+  margin: 0;
+  padding: 16px 0 14px 0;
 }
 
-div.region-sidebar-first-inner ul.menu li:hover,
-div.region-sidebar-first-inner ul.menu li.active-trail {
-  background-position: left -49px;
+div.region-sidebar-first-inner ul.menu li:hover a,
+div.region-sidebar-first-inner ul.menu li.active-trail a {
+  color: #0b4c61;
 }
 
 /* homepage boxes */
@@ -168,14 +178,14 @@ div.region-sidebar-first-inner ul.menu li.active-trail {
 .panels-flexible-region-homepage-center h2,
 .panels-flexible-region-homepage-right h2 {
   text-transform: uppercase;
-  color: gray;  
+  color: gray;
   font-size: 140%;
 }
 
 .panels-flexible-region-homepage-left h3,
 .panels-flexible-region-homepage-center h3,
 .panels-flexible-region-homepage-right h3 {
-  text-transform: uppercase;  
+  text-transform: uppercase;
   font-size: 180%;
   padding: 0.1em 0 0.8em 0;
   border-bottom: dotted 1px;
@@ -215,24 +225,24 @@ div.region-content p {
   padding-right: 30px;
   border-right: dotted 1px #16b9ed;
   margin-bottom: 30px;
-} 
+}
 
-.view-board-of-directors .views-row, 
+.view-board-of-directors .views-row,
 .view-management .views-row {
   clear: both;
   margin-top: 30px;
 }
 
-.view-board-of-directors .views-field-field-email,  
+.view-board-of-directors .views-field-field-email,
 .view-board-of-directors .views-field-field-telephone,
 .view-board-of-directors .views-field-title,
 .view-board-of-directors .views-field-body,
-.view-management .views-field-field-email, 
+.view-management .views-field-field-email,
 .view-management .views-field-field-telephone,
-.view-management .views-field-title, 
+.view-management .views-field-title,
 .view-management .views-field-body {
   margin-left: 160px;
-} 
+}
 
 .views-label {
   float: left;
@@ -262,7 +272,7 @@ div.region-content p {
 	border-top-right-radius: 12px;
 	border-bottom-right-radius: 12px;	border: 0;
 	height: 345px;
-} 
+}
 
 .flexslider img {
 	-webkit-border-top-right-radius: 10px;
@@ -294,7 +304,7 @@ div.region-content p {
 
 .flexslider .views-field-nothing {
 	background: url(../images/front-button.png) no-repeat;
-	margin: 0px 30px 0px 30px;	
+	margin: 0px 30px 0px 30px;
 	height: 40px;
 	position: absolute;
 	top: 270px;
@@ -321,11 +331,11 @@ div.region-content p {
 
 
 .flexslider .views-field-body {
-	padding: 0px 30px 10px 30px;	
+	padding: 0px 30px 10px 30px;
 	font-size: 1.1em;
-	line-height: 1.3em;	
+	line-height: 1.3em;
 }
-	
+
 
 .flexslider .views-field-field-picture {
 	position: absolute;
@@ -336,10 +346,10 @@ div.region-content p {
 ol.flex-control-nav {
 	position: absolute;
 	top: 15px;
-	right: -420px;	
+	right: -420px;
 }
 
-/* quotes */ 
+/* quotes */
 
 .view-quotes {
 	text-align: center;
@@ -349,12 +359,49 @@ ol.flex-control-nav {
 	color: #16B9ED;
 	font-size: 1.3em;
 	font-style: italic;
-} 
+}
 
 .view-quotes .views-field-field-source {
-	margin: 10px 0 100px 0;	
+	margin: 10px 0 100px 0;
 }
 
 .view-quotes .views-field-field-source div:before {
 	content: "- ";
+}
+
+/*
+ * Toggle list
+ */
+
+.toggle-headline-closed {
+  background: url("../images/toggelist-open.png") no-repeat 0 30px
+}
+
+.toggle-headline-open {
+  background: url("../images/togglelist-close.png") no-repeat 0 30px;
+}
+
+.toggle-headline {
+  border-top: 1px solid #0b4c61;
+  color: #65b7eb;
+  cursor: pointer;
+  font-size: 255%;
+  line-height: 34px;
+  margin: -1px 0 0 0;
+  padding: 30px 0 28px 50px;
+  text-transform: uppercase;
+}
+
+.toggle-content {
+  border-bottom: 1px solid #0b4c61;
+}
+
+div.toggle-content, p.toggle-content {
+  margin: 0!important;
+  padding: 0 0 28px 50px;
+}
+
+ul.toggle-content, ol.toggle-content {
+  margin: 0 !important;
+  padding: 0 0 28px 65px;
 }
