@@ -326,10 +326,19 @@ div.region-content p {
 	border-bottom-right-radius: 10px;
 }
 
+.flexslider .flexslider-arrow {
+  background: url("../images/flexslider-arrow.png") no-repeat 0 50%;
+  height: 345px;
+  position: absolute;
+  width: 620px;
+  top: 0;
+  left: 0;
+}
+
 .flexslider .views-field-title,
 .flexslider .views-field-body,
 .flexslider .views-field-nothing  {
-	width: 270px;
+	width: 260px;
 }
 
 
