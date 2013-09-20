@@ -667,3 +667,9 @@ ul.toggle-content, ol.toggle-content {
 .view-event-footer .views-field {
   line-height: 1.389em;
 }
+
+/* Headline image, Google Map Bloc */
+
+.view-headline-image, #block-block-7 {
+  padding: 0 0 50px 0;
+}
