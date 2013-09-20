@@ -3,14 +3,14 @@
   Drupal.behaviors.accordion = {
     attach: function (context, settings) {
       // hide all togglelist by default
-      $('.field-name-body h2').each(function () {
+      $('.field-name-body h4').each(function () {
         $(this).addClass('toggle-headline');
         $(this).addClass('toggle-headline-closed');
         $(this).next().hide().addClass('toggle-content');
       });
 
       // togglelist event
-      $('.field-name-body h2').toggle(function () {
+      $('.field-name-body h4').toggle(function () {
         $(this).removeClass('toggle-headline-closed');
         $(this).addClass('toggle-headline-open');
         $(this).next().show('slideDown');
