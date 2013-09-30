@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the dliver migration feature.
+ */
+
+include_once 'dliver_migration.features.inc';
