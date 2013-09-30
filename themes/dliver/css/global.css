@@ -165,6 +165,11 @@ ul.main-menu li.active-trail a {
   vertical-align: top;
 }
 
+.region-sidebar-first, .region-branding, .region-menu {
+  margin-left: 0;
+  margin-right: 0;
+}
+
 div.region-sidebar-first-inner ul.menu {
   border-top: 1px solid #808080;
   list-style-image: none;
