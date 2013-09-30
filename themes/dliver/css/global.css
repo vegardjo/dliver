@@ -165,7 +165,7 @@ ul.main-menu li.active-trail a {
   vertical-align: top;
 }
 
-.region-sidebar-first, .region-branding, .region-menu {
+.region-sidebar-first, .region-branding, .region-menu, .region-preface-first {
   margin-left: 0 !important;
   margin-right: 0 !important;
 }
