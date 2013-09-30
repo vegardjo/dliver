@@ -166,8 +166,8 @@ ul.main-menu li.active-trail a {
 }
 
 .region-sidebar-first, .region-branding, .region-menu {
-  margin-left: 0;
-  margin-right: 0;
+  margin-left: 0 !important;
+  margin-right: 0 !important;
 }
 
 div.region-sidebar-first-inner ul.menu {
