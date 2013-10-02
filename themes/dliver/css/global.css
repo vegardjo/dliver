@@ -475,12 +475,11 @@ ol.flex-control-nav {
 }
 
 div.toggle-content, p.toggle-content {
-  margin: 0!important;
   padding: 0 0 28px 50px;
 }
 
 ul.toggle-content, ol.toggle-content {
-  margin: 0 !important;
+  margin-left: 0 !important;
   padding: 0 0 28px 65px;
 }
 
