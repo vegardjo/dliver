@@ -66,12 +66,16 @@ table.investors td {
 }
 
 .zone-branding .logo-img {
-  padding-top: 21px;
+  padding-top: 39px;
+}
+
+.zone-branding .logo-img img {
+  display: block;
 }
 
 .zone-branding ul.main-menu {
   position: absolute;
-  top: 45px;
+  top: 62px;
   right: 10px;
   font-size: 120%;
   letter-spacing: 1px;
@@ -81,7 +85,7 @@ table.investors td {
 ul.main-menu li {
   font-family: 'league_gothicregular', Helvetica, Arial, sans-serif;
   font-size: 160%;
-  border-top: solid 5px white;
+  border-top: solid 6px white;
   margin-right: 30px;
   padding: 45px 0 0 0;
   text-transform: uppercase;
@@ -94,8 +98,8 @@ ul.main-menu li.last {
 ul.main-menu li.active,
 ul.main-menu li.active-trail,
 ul.main-menu li:hover {
-  border-top: solid 8px #16b9ed;
-  padding-top: 33px;
+  border-top: solid 6px #16b9ed;
+  padding-top: 47px;
 }
 
 ul.main-menu li:hover a {
@@ -124,10 +128,23 @@ ul.main-menu li.active-trail a {
   margin-left: 30px;
 }
 
+.region-menu {
+  float: right !important;
+  margin-right: 0 !important;
+}
+
 .zone-preface {
-  margin: 60px 0 40px 0;
+  margin: 48px 0 40px 0;
+}
+
+.zone-preface-inner {
+  padding-top: 23px;
   padding-bottom: 20px;
   border-bottom: solid 1px gray;
+  border-top: solid 1px gray;
+  margin: 0 0 0 10px;
+  width: 940px;
+  overflow: hidden;
 }
 
 .zone-preface h2 {
@@ -135,6 +152,13 @@ ul.main-menu li.active-trail a {
   font-weight: 500;
 }
 
+.region-preface-first {
+   margin-left: 0 !important;
+}
+
+.region-preface-third {
+  margin-right: 0 !important;
+}
 
 .region-preface-first-inner {
   color: #65b6ea;
@@ -303,27 +327,13 @@ div.region-content p {
 }
 
 .flexslider {
-	background: #16B9ED;
+	background: #65b6ea;
+  border: 0;
 	color: white;
-	-webkit-border-radius: 10px;
-	-webkit-border-top-right-radius: 12px;
-	-webkit-border-bottom-right-radius: 12px;
-	-moz-border-radius: 10px;
-	-moz-border-radius-topright: 12px;
-	-moz-border-radius-bottomright: 12px;
-	border-radius: 10px;
-	border-top-right-radius: 12px;
-	border-bottom-right-radius: 12px;	border: 0;
 	height: 345px;
 }
 
 .flexslider img {
-	-webkit-border-top-right-radius: 10px;
-	-webkit-border-bottom-right-radius: 10px;
-	-moz-border-radius-topright: 10px;
-	-moz-border-radius-bottomright: 10px;
-	border-top-right-radius: 10px;
-	border-bottom-right-radius: 10px;
 }
 
 .flexslider .flexslider-arrow {
