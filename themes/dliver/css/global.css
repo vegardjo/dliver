@@ -328,6 +328,7 @@ div.region-content p {
 
 .flexslider {
 	background: #65b6ea;
+  border-radius:0 !important;
   border: 0;
 	color: white;
 	height: 345px;
