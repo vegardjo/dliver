@@ -25,7 +25,7 @@ body {
 }
 
 
-h1, h2, h3 {
+h1, h2, h3, h4 {
   font-family: 'league_gothicregular', sans-serif;
 }
 
@@ -134,7 +134,7 @@ ul.main-menu li.active-trail a {
 }
 
 .zone-preface {
-  margin: 48px 0 40px 0;
+  margin: 48px 0 64px 0;
 }
 
 .zone-preface-inner {
@@ -193,6 +193,7 @@ div.region-sidebar-first-inner ul.menu {
   border-top: 1px solid #808080;
   list-style-image: none;
   font-size: 110%;
+  line-height: 20px;
 }
 
 div.region-sidebar-first-inner ul.menu li {
@@ -462,21 +463,21 @@ ol.flex-control-nav {
  */
 
 .toggle-headline-closed {
-  background: url("../images/toggelist-open.png") no-repeat 0 30px
+  background: url("../images/toggelist-open.png") no-repeat 0 32px
 }
 
 .toggle-headline-open {
-  background: url("../images/togglelist-close.png") no-repeat 0 30px;
+  background: url("../images/togglelist-close.png") no-repeat 0 32px;
 }
 
 .toggle-headline {
   border-top: 1px solid #0b4c61;
   color: #65b7eb;
   cursor: pointer;
-  font-size: 255%;
-  line-height: 34px;
+  font-size: 38px;
+  line-height: 37px;
   margin: -1px 0 0 0;
-  padding: 30px 0 28px 50px;
+  padding: 31px 0 27px 50px;
   text-transform: uppercase;
 }
 
@@ -554,6 +555,7 @@ ul.toggle-content, ol.toggle-content {
   line-height: normal;
   text-transform: uppercase;
   font-weight: normal;
+  margin: -13px 0 0 0;
   padding: 0 0 0 0
 }
 
