@@ -244,6 +244,14 @@ div.region-content p {
   margin-top: 1em;
 }
 
+table.investors img {
+  margin: 0;
+}
+
+table.investors p {
+  margin: 0;
+}
+
 /* Views / people */
 
 .panel-people .panel-row-top {
