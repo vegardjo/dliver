@@ -471,11 +471,11 @@ ol.flex-control-nav {
  */
 
 .toggle-headline-closed {
-  background: url("../images/toggelist-open.png") no-repeat 0 32px
+  background: url("../images/toggelist-open.png") no-repeat 0 30px
 }
 
 .toggle-headline-open {
-  background: url("../images/togglelist-close.png") no-repeat 0 32px;
+  background: url("../images/togglelist-close.png") no-repeat 0 30px;
 }
 
 .toggle-headline {
