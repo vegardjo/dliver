@@ -306,7 +306,7 @@ table.investors p {
 .view-management .views-field-field-telephone
  {
   font-size: 125%;
-  line-height: 1.222em;
+  line-height: 1.322em;
 }
 
 .view-management .views-field-body, .view-board-of-directors .views-field-body {
@@ -483,6 +483,7 @@ ol.flex-control-nav {
   color: #65b7eb;
   cursor: pointer;
   font-size: 38px;
+  font-weight: normal;
   line-height: 37px;
   margin: -1px 0 0 0;
   padding: 31px 0 27px 50px;
